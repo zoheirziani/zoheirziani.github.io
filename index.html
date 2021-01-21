@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zoheir Ziani Portfolio">
+    <meta name="keywords" content="Zoheir Ziani, zoheir ziani github">
+    <meta name="author" content="Zoheir Ziani">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Open Graph Meta tags -->
+    <meta property='og:type'  content='Portfolio' />
+    <meta property='og:title' content='Zoheir Ziani | Portfolio'/>
+    <meta property='og:image' content=''/>
+    <meta property="og:locale" content="fr" />
+    <meta property='og:description' content=''/>
+    <meta property='og:url' content='https://zoheirziani.github.io' />
+    <!-- Title -->
+    <title>Zoheir Ziani | Portfolio</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <!-- Bootstrap CSS file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/5bfa4842b7.js" crossorigin="anonymous"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet"> 
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS file : Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <!-- Custom JS file -->
+    <script src="./assets/js/scripts.js"></script>   
+</head>
+
+<body>
+    <!-- Start Navigation Area -->
+	<nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Zoheir Ziani, Ph.D</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Academic</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          CV
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="./assets/pdf/ZoheirCV.pdf">English version</a></li>
+                          <li><a class="dropdown-item" href="./assets/pdf/ZoheirCV.pdf">French version</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navigation Area -->
+
+
+
+    <!-- Start Contact Area -->
+    <section id="contact">
+        <div class="section-content">
+            <h1 class="section-header">Get in <span class="content-header"> Touch with me</span></h1>
+            <h3>Please feel free to contact me if you have any questions</h3>
+        </div>
+        <div class="contact-section">
+            <div class="container">
+                <form action="./assets/php/contact.php" method="POST">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                            <div class="form-group">
+                                <label for="name">Your name :</label>
+                                <input class="form-control" type="text" id="name" name="name" placeholder="Your Name" required onchange="change()">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your e-mail address :</label>
+                                <input class="form-control" type="email" id="email" name="useremail" placeholder="example@email.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="tel">Your phone number :</label>
+                                <input class="form-control" type="tel" id="tel" name="tel" placeholder="+212 7 00 00 00 00">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                            <div class="form-group">
+                                <label for="message"></label>
+                                <textarea class="form-control" type="text" id="message" name="message" placeholder="Enter Your Message" autofocus></textarea>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-default submit">
+                                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                    Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Area -->
+
+    <!-- Start Footer Area -->
+    <footer onclick="show()">
+        <p class="logo"><span>Z</span>oheir</i></p>
+        <div class="social-links">
+            <li><a title="Follow me on twitter" href="https://twitter.com/ZoheirZiani" target="_blank"><i class="fab fa-twitter icon"></i></a></li>
+            <li><a title="Follow me on Facebook" href="https://www.facebook.com/ziani.zoheir" target="_blank"><i class="fab fa-facebook icon"></i></a></li>
+            <li><a title="Follow me on Instagram" href="https://www.instagram.com/zoheirziani" target="_blank"><i class="fab fa-instagram icon"></i></a></li>
+            <li><a title="Add me on Snapchat" href="https://www.snapchat.com/add/ziani.zoheir" target="_blank"><i class="fab fa-snapchat icon"></i></a></li>
+            <li><a title="View my repositories on GitHub" href="https://github.com/zoheirziani" target="_blank"><i class="fab fa-github icon"></i></a></li>
+            <li><a title="See my LinkedIn profile" href="https://www.linkedin.com/in/zoheir-ziani" target="_blank"><i class="fab fa-linkedin-in icon"></i></a></li>
+            <li><a title="See me live on Twitch" href="https://www.twitch.tv/ZoheirZiani" target="_blank"><i class="fab fa-twitch icon"></i></a></li>
+            <li><a title="See my Pinterest profile" href="https://www.pinterest.fr/zianizoheir" target="_blank"><i class="fab fa-pinterest icon"></i></a></li>
+            <li><a title="See my Deviantart profile" href="https://www.deviantart.com/zoheirziani" target="_blank"><i class="fab fa-deviantart icon"></i></a></li>
+        </div>
+        <p class="copyright">Made with <i class="fas fa-heart"></i> from Morocco</p>
+    </footer>
+    <!-- End Footer Area -->
+</body>
+</html>

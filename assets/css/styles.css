@@ -1,0 +1,182 @@
+@charset "UTF-8";
+html, body, div {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  background: #222222;
+  padding: 1rem 0;
+}
+
+.navbar .navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-size: 200%;
+  color: #fcc500;
+}
+
+.navbar .navbar-brand:hover {
+  color: #ffffff;
+}
+
+.navbar .navbar-toggler {
+  background-color: #222222;
+  border-width: 0.1px;
+  border-color: #111111;
+}
+
+.navbar .collapse {
+  font-size: 125%;
+}
+
+.navbar .collapse .nav-link {
+  color: #ffffff;
+}
+
+.navbar .collapse .nav-link:hover {
+  color: #fcc500;
+}
+
+.navbar .collapse .dropdown-menu {
+  background-color: #999999;
+}
+
+.navbar .collapse .dropdown-menu:hover {
+  background-color: #fcc500;
+}
+
+#contact {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+  background: #222210;
+  color: #ffffff;
+}
+
+#contact .section-content {
+  text-align: center;
+  font-family: "Cookie", cursive;
+}
+
+#contact .section-content .section-header .content-header {
+  color: #fcc500;
+  font-size: 125%;
+}
+
+#contact .contact-section {
+  padding-top: 30px;
+}
+
+#contact .contact-section .form-group {
+  margin-top: 10px;
+}
+
+#contact .contact-section .form-group .form-control {
+  background: #ffffff;
+}
+
+#contact .submit {
+  font-family: "Cookie", cursive;
+  font-size: 100%;
+  font-weight: 300;
+  font-size: 150%;
+  color: #fcc500;
+  background-color: transparent;
+  float: right;
+  width: 100ù;
+}
+
+#contact .submit:hover {
+  color: #ffffff;
+}
+
+footer {
+  color: #ffffff;
+  background: #222222;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer .logo {
+  font-family: "Dancing Script", cursive;
+  font-size: 150%;
+  font-weight: 500;
+}
+
+footer .logo span {
+  color: #fcc500;
+  font-size: 125%;
+}
+
+footer .social-links {
+  margin: 0 0;
+  font-size: 125%;
+}
+
+footer .social-links li {
+  margin: 0.35rem;
+  display: inline-block;
+}
+
+footer .social-links .icon {
+  -webkit-transition: 0.9s all;
+  -webkit-transition: 0.7s all;
+  transition: 0.7s all;
+}
+
+footer .social-links .icon:hover {
+  color: #ffffff;
+  -webkit-transform: scale(1.2) rotate(360deg);
+          transform: scale(1.2) rotate(360deg);
+}
+
+footer .social-links .fa-twitter {
+  color: #1da1f2;
+}
+
+footer .social-links .fa-facebook {
+  color: #1877f2;
+}
+
+footer .social-links .fa-instagram {
+  color: #c32aa3;
+}
+
+footer .social-links .fa-snapchat {
+  color: #fffc00;
+}
+
+footer .social-links .fa-github {
+  color: #f5f5f5;
+}
+
+footer .social-links .fa-linkedin-in {
+  color: #0a66c2;
+}
+
+footer .social-links .fa-twitch {
+  color: #9146ff;
+}
+
+footer .social-links .fa-pinterest {
+  color: #bd081c;
+}
+
+footer .social-links .fa-deviantart {
+  color: #05cc47;
+}
+
+footer .copyright {
+  padding-top: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+footer .copyright .fas {
+  color: #ff0000;
+}
+/*# sourceMappingURL=styles.css.map */

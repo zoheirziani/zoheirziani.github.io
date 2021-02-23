@@ -1,0 +1,22 @@
+// Color system
+$amber: rgb(255, 191, 0);
+$crimson: rgb(220,20,60);
+$darkblue: rgb(41, 50, 60);
+$awesome: rgb(255, 32, 82);
+$blue: rgb(0, 147, 175);
+$green: rgb(0, 107, 60);
+$yellow: rgb(255, 239, 0);
+$black: rgb(16, 12, 8);
+$white: rgb(238, 232, 214);
+
+$color-main: $darkblue;
+$color-background:  $white;
+$color-headlines: $crimson;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+$font-main: 'Open Sans', sans-serif;
+$font-highlight: 'Oleo Script', cursive;
+

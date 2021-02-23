@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+#footer {
+  background-color: #100c08;
+  color: #eee8d6;
+  padding: 10px 5px 5px 10px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

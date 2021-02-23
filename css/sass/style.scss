@@ -1,0 +1,32 @@
+@import "variables";
+
+*{
+    font-family: $font-main;
+}
+
+
+
+
+#footer{
+    background-color: $black;
+    color: $white;
+    padding: 10px 5px 5px 10px;
+    text-align: center;
+}
+
+
+// For devices like phones
+@media only screen and (max-width: 480px) {
+} 
+
+// For devices like larger phones and portrait tablets
+@media only screen and (min-width: 481px) {
+} 
+
+// For devices like landscape tablets and laptops
+@media only screen and (min-width: 769px) {
+} 
+
+// For devices like desktop computers 
+@media only screen and (min-width: 1280px) {
+}

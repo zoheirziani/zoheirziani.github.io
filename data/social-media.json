@@ -1,0 +1,112 @@
+{
+    "social_media" : [
+        {
+            "name": "Facebook",
+            "title": "Connect with me on Facebook",
+            "url": "https://www.facebook.com/ziani.zoheir",
+            "icon": "/assets/icons/facebook.png"
+        },
+        {
+            "name": "Whatsapp",
+            "title": "Chat with me on WhatsApp",
+            "url": "https://wa.me/33752823985",
+            "icon": "/assets/icons/whatsapp.png"
+        },
+        {
+            "name": "Instagram",
+            "title": "Follow me on Instagram",
+            "url": "https://www.instagram.com/zoheirziani",
+            "icon": "/assets/icons/instagram.png"
+        },
+        {
+            "name": "Threads",
+            "title": "Follow me on Threads",
+            "url": "https://www.threads.net/@zoheirziani",
+            "icon": "/assets/icons/threads.png"
+        },
+        {
+            "name": "X",
+            "title": "Follow me on X / Twitter",
+            "url": "http://www.twitter.com/zoheirziani",
+            "icon": "/assets/icons/twitter.png"
+        },
+        {
+            "name": "Github",
+            "title": "Check out my projects on GitHub",
+            "url": "https://github.com/zoheirziani",
+            "icon": "/assets/icons/github.png"
+        },
+        {
+            "name": "LinkedIn",
+            "title": "Connect with me on LinkedIn",
+            "url": "https://www.linkedin.com/in/zoheir-ziani",
+            "icon": "/assets/icons/linkedin.png"
+        },
+        {
+            "name": "Telegram",
+            "title": "Join my Telegram channel",
+            "url": "https://t.me/ZoheirZiani",
+            "icon": "/assets/icons/telegram.png"
+        },
+        {
+            "name": "Pinterest",
+            "title": "Follow me on Pinterest",
+            "url": "https://www.pinterest.fr/zianizoheir",
+            "icon": "/assets/icons/pinterest.png"
+        },
+        {
+            "name": "Snapchat",
+            "title": "Add me on Snapchat",
+            "url": "https://www.snapchat.com/add/ziani.zoheir",
+            "icon": "/assets/icons/snapchat.png"
+        },
+        {
+            "name": "Tumblr",
+            "title": "Follow me on Tumblr",
+            "url": "https://www.tumblr.com/zoheirziani",
+            "icon": "/assets/icons/tumblr.png"
+        },
+        {
+            "name": "Twitch",
+            "title": "Follow my Twitch channel",
+            "url": "https://www.twitch.tv/ZoheirZiani",
+            "icon": "/assets/icons/twitch.png"
+        },
+        {
+            "name": "Reddit",
+            "title": "Join the conversation on Reddit",
+            "url": "https://www.reddit.com/u/ZoheirZiani",
+            "icon": "/assets/icons/reddit.png"
+        },
+        {
+            "name": "TikTok",
+            "title": "Follow me on TikTok",
+            "url": "https://www.tiktok.com/@zoheirziani",
+            "icon": "/assets/icons/tik-tok.png"
+        },
+        {
+            "name": "Discord",
+            "title": "Join me on Discord",
+            "url": "https://discord.com/invite/SSjrsKG8",
+            "icon": "/assets/icons/discord.png"
+        },
+        {
+            "name": "Quora",
+            "title": "Follow me on Quora",
+            "url": "https://www.quora.com/profile/Zoheir-Ziani",
+            "icon": "/assets/icons/quora.png"
+        },
+        {
+            "name": "Medium",
+            "title": "Follow me on Medium",
+            "url": "https://medium.com/@ziani.zoheir",
+            "icon": "/assets/icons/medium.png"
+        },
+        {
+            "name": "Deviantart",
+            "title": "See my arts on DeviantArt",
+            "url": "https://www.deviantart.com/zoheirziani",
+            "icon": "/assets/icons/deviantart.png"
+        }
+    ]
+}

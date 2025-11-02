@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg version="1.2" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <title>Zoheir Ziani website favicon</title>
+  <desc>Two letters Z in black</desc>
+  <path
+     fill="#000000"
+     d="M 24.300087,0.08259749 V 2.27503 l -4.000042,7.872825 -5.100052,4.185553 6.00006,-11.859066 H 8.0999214 V 0.08259749 Z m 0.1,29.49818151 -0.1,2.391746 H 7.2999132 v -1.993122 l 4.3000438,-8.371105 5.000051,-4.185552 -6.100061,12.158033 z"
+     stroke="#ff00ff"
+     stroke-width="0.0998284"/>
+  <path
+     fill="#000000"
+     d="M 29.3,4.2 V 6.5 L 6.4,25.4 H 9.2 L 8,27.9 H 2.4 V 25.5 L 25,6.6 h -2.5 l 1.2,-2.4 z m -9.4,0 -1.2,2.4 H 2.7 V 4.2 Z m 9.9,21.2 v 2.5 h -18 L 13,25.4 Z"
+     stroke="#ff00ff"
+     stroke-width="0.1"/>
+</svg>
